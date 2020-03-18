@@ -1,5 +1,13 @@
-- [Info](/)
+- **Info**
+  - [Start](/)
 
-- [Bra länkar](good-links.md)
-- [VSCode plugins](vscode-plugins.md)
-- [Showcase](showcase.md)
+- **Länkar**
+  - [Allmänt](links/general.md)
+  - [HTML](links/html.md)
+  - [CSS](links/css.md)
+  - [JavaScript](links/javascript.md)
+  - [Design](links/design.md)
+  - [VSCode Plugins](links/vscode-plugins.md)
+
+- **Showcase**
+  - [Alla projekt](showcase/list.md)
