@@ -10,14 +10,23 @@
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
     <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css" />
+    <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
   </head>
   <body>
     <div id="app"></div>
     <script>
       window.$docsify = {
         name: "Webb docs",
-        repo: "",
-        loadSidebar: true
+        repo: "https://github.com/NTI-Gymnasiet-Stockholm/web-docs",
+        loadSidebar: true,
+        homepage: "info/start.md",
+        plugins: [
+          EditOnGithubPlugin.create(
+            "https://github.com/NTI-Gymnasiet-Stockholm/web-docs/tree/master/docs/",
+            null,
+            "Redigera på GitHub"
+          )
+        ]
       };
     </script>
     <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
