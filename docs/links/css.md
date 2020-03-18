@@ -3,6 +3,7 @@
 ## Verktyg
 
 - [cubic-bezier.com](https://cubic-bezier.com/#.17,.67,.83,.67) Skapa mjuka transitions
+- [cssgradient.io](https://cssgradient.io/) Skapa css-gradients
 
 ## Artiklar
 
