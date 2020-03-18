@@ -1,6 +1,9 @@
 # 📚 Webb docs
 
-Material och info för webbutveckling [LÄNK](https://webdocs.netlify.com)
+Material och info för webbutveckling 
+
+## Användning
+Sidan nås via [https://webdocs.netlify.com](https://webdocs.netlify.com)
 
 ## Installation
 
@@ -11,4 +14,4 @@ Material och info för webbutveckling [LÄNK](https://webdocs.netlify.com)
 
 ## Förbättringar
 
-Om du vill lägga till något kan du redigera i filerna på GitHub och skapa en pull request.
+Om du vill lägga till något kan du redigera i filerna på GitHub och skapa en pull request. Sidan uppdateras automatiskt när branchen master ändras.
