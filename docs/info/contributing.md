@@ -1,5 +1,5 @@
 # Bidra
-Vill du hjälpa till med att förbättra sidan eller lägga till något på någon sida? Då kan då gå in på [GitHub](https://github.com/NTI-Gymnasiet-Stockholm/web-docs) och följa instruktionerna för att redigera innehåll.
+Vill du hjälpa till med att förbättra sidan eller lägga till något på någon sida så är det enklast att klicka på redigera-knappen ovan.
 
 ## Installation
 1. Clona repot
