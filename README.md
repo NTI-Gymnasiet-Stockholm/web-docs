@@ -11,7 +11,3 @@ Sidan nås via [https://webdocs.netlify.com](https://webdocs.netlify.com)
 2. Kör `npm i docsify-cli -g``
 3. Ta dig till mappen i en terminal och kör `docsify init ./docs`
 4. Öppna `localhost:3000`
-
-## Förbättringar
-
-Om du vill lägga till något kan du redigera i filerna på GitHub och skapa en pull request. Sidan uppdateras automatiskt när branchen master ändras.
