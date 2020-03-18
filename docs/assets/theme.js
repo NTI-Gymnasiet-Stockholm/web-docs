@@ -1,10 +1,11 @@
+/* Written with code quality in mind */
+
 let themeToggle = document.querySelector("#theme-toggle");
 let themeLight = document.querySelector("#theme-light");
 let themeDark = document.querySelector("#theme-dark");
 
 // Only need to change theme if the user saved dark
 // as light is default
-
 if (localStorage.getItem("theme") == "dark") {
   console.log("saved as dark, setting!");
   setDark();

@@ -1,9 +1,7 @@
 - **Info**
-
   - [Start](/)
 
 - **Länkar**
-
   - [Allmänt](links/general.md)
   - [HTML](links/html.md)
   - [CSS](links/css.md)
