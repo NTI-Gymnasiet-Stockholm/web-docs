@@ -1,5 +1,6 @@
 - **Info**
   - [Start](/)
+  - [Bidra](info/contributing.md)
 
 - **Länkar**
   - [Allmänt](links/general.md)
