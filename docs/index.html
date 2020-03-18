@@ -9,10 +9,32 @@
       name="viewport"
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
-    <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css" />
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css"
+      id="theme-light"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/docsify/lib/themes/dark.css"
+      disabled
+      id="theme-dark"
+    />
     <script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
+    <style>
+      * {
+        transition: background 200ms ease !important;
+      }
+
+      #theme-toggle {
+        cursor: pointer;
+      }
+    </style>
   </head>
   <body>
+    <nav>
+      <img id="theme-toggle" data-theme="light" src="assets/moon.svg" />
+    </nav>
     <div id="app"></div>
     <script>
       window.$docsify = {
@@ -22,7 +44,7 @@
         homepage: "info/start.md",
         plugins: [
           EditOnGithubPlugin.create(
-            "https://github.com/NTI-Gymnasiet-Stockholm/web-docs/tree/master/docs/",
+            "https://github.com/NTI-Gymnasiet-Stockholm/web-docs/edit/master/docs/",
             null,
             "Redigera på GitHub"
           )
@@ -30,5 +52,6 @@
       };
     </script>
     <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+    <script src="assets/theme.js"></script>
   </body>
 </html>
