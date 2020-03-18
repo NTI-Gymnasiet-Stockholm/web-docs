@@ -1,6 +1,5 @@
 # Visa upp det ni har gjort
 
-Här kan man lägga till projekt för att visa upp vad man har gjort.
-TODO
+Här kan man lägga till projekt för att visa upp vad man har gjort. För att lägga till din egen, klicka på "Redigera på GitHub" ovan.
 
-> Projektnamn https://example.url Av: Någon
+> Fliptric https://fliptric.netlify.com/ Av: Filip TE18D
